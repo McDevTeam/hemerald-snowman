@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "it.bisumto.hemeraldsnowman.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "SnowBallEntityMixin",
+    "SnowGolemEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

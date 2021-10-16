@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "hemerald-snowman",
+  "version": "${version}",
+  "name": "Hemerald Snowman",
+  "description": "New AI for Snowmans",
+  "authors": [
+    "BisUmTo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/McDevTeam/hemerald-snowman",
+    "issues": "https://github.com/McDevTeam/hemerald-snowman/issues",
+    "sources": "https://github.com/McDevTeam/hemerald-snowman"
+  },
+  "license": "GNU-3.0",
+  "icon": "assets/hemeraldsnowman/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.bisumto.hemeraldsnowman.HemeraldSnowman"
+    ]
+  },
+  "mixins": [
+    "hemeraldsnowman.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.17.x",
+    "fabricloader": ">=0.11.3",
+    "java": ">=16"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
